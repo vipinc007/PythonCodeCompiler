@@ -10,9 +10,9 @@ This was usefull for me to catch my compilation errors before I could find them 
 
 ### How to Run :
 ```
-	result = python_code_compiler.complile("../source_path")
-    if result is False:
-        raise Exception('Code has errors')
+result = python_code_compiler.complile("../source_path")
+if result is False:
+   raise Exception('Code has errors')
 ```
 
 ## Credits 
