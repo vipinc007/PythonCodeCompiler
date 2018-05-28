@@ -9,6 +9,7 @@ This was usefull for me to catch my compilation errors before I could find them 
 
 
 ### How to Run :
+*	The compile function takes a parameter. It could be path of an individual file or it can be a path of a root folder which has all the source code of your python project.
 ```
 result = python_code_compiler.complile("../source_path")
 if result is False:
